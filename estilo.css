@@ -1,0 +1,54 @@
+body{
+    background-image: url(imagens/fundo\ tela.jpg);
+    background-repeat: no-repeat ;
+    background-size: cover;
+    font-family: monospace,sans-serif
+}
+h1{
+    color: aquamarine;
+}
+h2{
+    color: aqua;
+}
+p{
+    color: aqua;
+}
+img {
+    width: 40%; 
+    height:0 auto;
+}
+.container{
+
+    border: 2px solid currentColor;
+    margin: 0 auto;
+    width: 700px;
+    justify-items: center;
+}
+.lugares{
+    /* border: 2px solid white; */
+    float: left;
+    width: 660; 
+}
+.lugar{
+    /* border: 1px solid #ccc; */
+    background-color: rgb(126, 37, 2);
+    border-radius: 50px;
+    border-color: rgb(88, 4, 4);
+    margin-bottom: 50px;
+    padding: 10px;
+    justify-items:center ;
+}
+.conteudo{
+    display: flex;
+    align-items: center; 
+    gap: 40px;
+}
+.conteudo img{
+    width: 60%;
+    height: auto;
+    border-radius: 50px;
+}
+.conteudo p {
+    margin: 0%;
+    text-align: justify;
+}
